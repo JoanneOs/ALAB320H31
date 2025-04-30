@@ -25,7 +25,8 @@ index.html (update) title and defer:
 
     <title>Rendering Arrays from State, title changed in index.html, then added defer to end of script</title>
 
-    <script type="module" src="/src/main.jsx" defer></script>
+     we put this in head instead of body <script type="module" src="/src/main.jsx" defer></script>  
+     defer tells the browser to keep loading the page while downloading the script.
 
 got free truck favicon from freesvg.org and replaced with with public vite.svg
 

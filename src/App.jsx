@@ -72,12 +72,23 @@ function App() {
   });
 
   return (
-    <div>
-      <h1>Learner List</h1>
-      {learnerData.learners.map((learner, index) => (
-        <Learner key={index} learner={learner} />
-      ))}
+    <div id="app">
+    <div id="home-page">
+      <div id="header">
+        <h1>Learner List</h1>
+      </div>
+      <div id="search-bar-container">
+        <input id="search-bar" type="text" placeholder="Search learners..." />
+      </div>
+      <div id="employee-list">
+        {learnerData.learners.map((learner, index) => (
+          <div key={index} id="employee-list-item" className="learner-card">
+            <Learner learner={learner} />
+          </div>
+        ))}
+      </div>
     </div>
+  </div>
   );
 }
 

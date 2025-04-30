@@ -1,0 +1,84 @@
+#app {
+  font-family: sans-serif;
+  text-align: center;
+  border: 2px solid black;
+  padding: 5px 5px 5px 5px;
+  background-color: #51515130;
+  display: flex;
+}
+
+#home-page {
+  width: 50%;
+  border: 2px solid #ffa500;
+  padding: 0 5px 5px 5px;
+  margin-right: 2.5px;
+  background-color: #ffa50030;
+}
+
+#header {
+  border: 2px solid #0000FF;
+  padding: 7px 0;
+  margin: 20px 0;
+  background-color: #0000FF30;
+}
+
+#search-bar-container {
+  border: 2px solid #008000;
+  padding: 8px 0;
+  background-color: #00800030;
+}
+
+#search-bar {
+  width: 90%;
+  padding: 5px 5px 4px 5px;
+  border-radius: 10px;
+  border: 2px solid grey;
+}
+
+#employee-list {
+  border: 2px solid #800080;
+  margin-top: 20px;
+  background-color: #80008030;
+}
+
+#employee-list-item {
+  border: 2px solid #ff0000;
+  margin: 10px 5px;
+  background-color: #ff000030;
+}
+
+#employee-page {
+  width: 50%;
+  border: 2px solid #a52a2a;
+  padding: 0 5px 5px 5px;
+  margin-left: 2.5px;
+  height: 773.3px;
+  background-color: #a52a2a30;
+}
+
+#employee-info-container {
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #80808030;
+}
+
+.employee {
+  border-bottom: 1px solid gray;
+}
+
+.employee h3,
+.employee h4,
+.employee p {
+  margin: 20px
+}
+
+.learner-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+}
+
+.score-entry {
+  padding-left: 1rem;
+}
